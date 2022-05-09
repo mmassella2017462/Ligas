@@ -9,7 +9,7 @@ function RegistrarAd(req, res) {
 
     usuarioModel.nombre='Admin';
     usuarioModel.usuario = 'Admin';
-    usuarioModel.email = 'adminsitracion@gmail.com';
+    usuarioModel.email = 'administracion@gmail.com';
     usuarioModel.rol = 'ADMIN';
     usuarioModel.password = 'deportes123'
 

@@ -6,7 +6,7 @@ const JornadaSchema = Schema({
     id_liga: { type: Schema.Types.ObjectId, ref: 'Ligas'},
     resultados: [{
         equipoGanador: String,
-        golesPerdedor: Number,
+        equipoPerdedor: String,
         marcador: Number
     }],
 });
